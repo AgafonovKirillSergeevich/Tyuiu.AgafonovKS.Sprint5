@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using Tyuiu.AgafonovKS.Sprint5.Task4.V30.Lib;
+using Tyuiu.AgafonovKS.Sprint5.Task5.V11.Lib;
 
-namespace Tyuiu.AgafonovKS.Sprint5.Task4.V30
+namespace Tyuiu.AgafonovKS.Sprint5.Task5.V11
 {
     class Program
     {
@@ -16,23 +16,24 @@ namespace Tyuiu.AgafonovKS.Sprint5.Task4.V30
             Console.Title = "Спринт #5 | Выполнил: Агафонов К. С. | ИИПб-23-1";
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* Спринт #5                                                                    *");
-            Console.WriteLine("* Тема: Чтение данных из текстового файла                                      *");
-            Console.WriteLine("* Задание #4                                                                   *");
-            Console.WriteLine("* Вариант #30                                                                  *");
+            Console.WriteLine("* Тема: Чтение набора данных из текстового файла                               *");
+            Console.WriteLine("* Задание #5                                                                   *");
+            Console.WriteLine("* Вариант #11                                                                  *");
             Console.WriteLine("* Выполнил: Агафонов Кирилл Сергеевич | ИИПб-23-1                              *");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                     *");
-            Console.WriteLine("* Дан файл С:DataSprint5InPutDataFileTask4V0.txt (файл взять из архива         *");
-            Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С:DataSprint5 и             *");
-            Console.WriteLine("* скопировать в неё файл) в котором есть вещественное значение. Прочитать      *");
-            Console.WriteLine("* значение из файла и подставить вместо Х в формуле y = (x^3 - tg(x))+2.03*x   *");
-            Console.WriteLine("* Вычислить значение по формуле (Полученное значение округлить                 *");
-            Console.WriteLine("* до трёх знаков после запятой) и вернуть полученный результат на консоль.     *");
+            Console.WriteLine("* Дан файл С:DataSprint5InPutDataFileTask5V26.txt (файл взять из архива        *");
+            Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С: DataSprint5 и            *");
+            Console.WriteLine("* скопировать в неё файл) в котором есть набор значений. Найти                 *");
+            Console.WriteLine("* произведение всех нечетных целых чисел в файле                               *");
+            Console.WriteLine("* Результат округлить до 3 знаков после запятой. Полученный                    *");
+            Console.WriteLine("* результат вывести на консоль. У вещественных значений округлить до           *");
+            Console.WriteLine("* трёх знаков после запятой.                                                   *");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                             *");
             Console.WriteLine("********************************************************************************");
 
-            string path = @"C:\DataSprint5\InPutDataFileTask4V30.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V11.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
